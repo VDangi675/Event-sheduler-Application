@@ -50,7 +50,7 @@ route.get("/v1/event/:id",async (req,res)=>{
 route.post("/v1/Event",async(req,res)=>{
    
     try{
-        let {title,description,location,starttime,endtime} = req.body;
+         let {title,description,location,starttime,endtime} = req.body;
 
         if(title===null||title.length===0)
         {
